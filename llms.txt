@@ -1,12 +1,11 @@
-# GNCore
+# GNCore 7.0.0rc1
 
-GNCore is a Python CLI and skill catalog. Skills are instructions for AI assistants, not independently executing agents.
+Developer-focused skill catalog: 30 categories, 374 workflows.
+Status: candidate-preview.
+Skills guide host agents; they do not independently execute projects or certify output quality.
 
-- Home: https://gncore.pages.dev/
-- All 403 skill pages: https://gncore.pages.dev/all-skills/
-- Use-case guides: https://gncore.pages.dev/use-cases/
-- Installation (Windows, macOS, Linux): https://gncore.pages.dev/download/
-- Creator (Paladugu Ganesh Naidu): https://gncore.pages.dev/creator/
-- Public source: https://github.com/paladuguganeshnaidu/gncore
-- Package: https://pypi.org/project/gncore/
-- License: https://github.com/paladuguganeshnaidu/gncore/blob/main/LICENSE
+- Catalog: https://gncore.pages.dev/skills/
+- Workflow index: https://gncore.pages.dev/all-skills/
+- Migration: https://gncore.pages.dev/migration/
+- Install: https://gncore.pages.dev/download/
+- Source-specific attribution and licenses remain applicable.
