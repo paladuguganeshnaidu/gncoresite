@@ -1,0 +1,4 @@
+# Reports must retain exact bytes and valid PDF cross-reference offsets.
+*.pdf -text
+*.png -text
+*.jpg -text
