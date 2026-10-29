@@ -1,5 +1,5 @@
 .preview-banner{padding:10px 24px;text-align:center;background:#e7e1fc;font:12px/1.5 var(--mono)}
-.preview-banner a{text-decoration:underline}.hero-copy h1{white-space:normal;font-size:clamp(3rem,6.6vw,6.3rem)}
+.benchmark-chart{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:8px}.preview-banner a{text-decoration:underline}.hero-copy h1{white-space:normal;font-size:clamp(3rem,6.6vw,6.3rem)}
 .hero-grid{min-height:580px}.hero-art.phase2-art{display:flex;align-items:center;justify-content:center;height:520px;padding:25px}
 .phase2-art .terminal{width:100%;max-width:520px;transform:rotate(-2deg)}.phase2-art pre{white-space:pre-wrap;overflow-wrap:anywhere;font:14px/1.8 var(--mono);padding:24px;color:#ebecf7}
 .phase2-art .terminal-top{padding:16px 24px}.phase2-art .terminal-top span{color:#c7f142}.phase2-art .terminal-bottom{padding:16px 24px;color:#b9b5ce;font:11px/1.7 var(--mono)}
