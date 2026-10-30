@@ -1,0 +1,7 @@
+.landing-video{padding-top:54px;padding-bottom:48px;scroll-margin-top:100px}
+.landing-video .section-heading{margin-top:24px}
+.landing-video .hero-sub{max-width:680px}
+.landing-video-frame{aspect-ratio:16/9;overflow:hidden;border:1px solid var(--line);border-radius:12px;background:var(--ink)}
+.landing-video-frame iframe{display:block;width:100%;height:100%;border:0}
+.landing-video-note{margin:18px 0 0;font-size:13px;line-height:1.7;color:var(--muted)}
+@media(max-width:760px){.landing-video{padding-top:36px;padding-bottom:32px}.landing-video .section-heading{margin-top:20px}}
