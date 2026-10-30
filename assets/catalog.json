@@ -1,6 +1,6 @@
 {
-  "version": "7.0.0rc1",
-  "status": "candidate-preview",
+  "version": "7.0.0",
+  "status": "published",
   "categories": 30,
   "workflows": 374,
   "skills": [
@@ -192,7 +192,7 @@
         {
           "id": "code-blueprint",
           "name": "GNCore Blueprint",
-          "description": "Turn a one-line objective into a step-by-step construction plan for multi-session, multi-agent engineering projects: one-PR-sized steps with self-contained context briefs, dependency graph with parallel-step detection, adversarial review gate, and plan mutation protocol."
+          "description": "Plan a substantial engineering change as reviewable steps with dependencies and acceptance evidence."
         },
         {
           "id": "code-architecture",
@@ -247,7 +247,7 @@
         {
           "id": "code-tdd-workflow",
           "name": "GNCore Tdd Workflow",
-          "description": "Test-driven development workflow: write a failing test first, watch it fail, implement the smallest change to green, then refactor with 80%+ coverage across unit, integration, and E2E tests."
+          "description": "Use a focused red/green/refactor loop around an observable behavior contract."
         },
         {
           "id": "code-e2e-testing",
@@ -297,7 +297,7 @@
         {
           "id": "code-verification-loop",
           "name": "GNCore Verification Loop",
-          "description": "Run a six-phase verification of a Claude Code session's work — build, type check, lint, tests with coverage, security grep, and diff review — then produce a PASS/FAIL verification report."
+          "description": "Select and run checks that expose the changed contract; investigate failures and retain evidence."
         },
         {
           "id": "code-security-review",
@@ -327,7 +327,7 @@
         {
           "id": "code-semgrep",
           "name": "GNCore Semgrep",
-          "description": "Runs a Semgrep security scan over a codebase: detects languages, selects rulesets, presents the plan for explicit approval, then runs every approved ruleset through scripts/run-scans.sh, which batches the semgrep processes and writes scans.json, and merges the output to SARIF."
+          "description": "Run and interpret a bounded, relevant Semgrep analysis using the available installation."
         },
         {
           "id": "code-codeql",
@@ -352,7 +352,7 @@
         {
           "id": "code-delivery-gate",
           "name": "GNCore Delivery Gate",
-          "description": "Stop hook that blocks Claude from finishing until quality checks pass."
+          "description": "Review acceptance and release evidence, including failures and unresolved risks."
         },
         {
           "id": "code-cost-tracking",
@@ -392,12 +392,12 @@
         {
           "id": "code-to-spec",
           "name": "GNCore To Spec",
-          "description": "Turn the current conversation into a spec and publish it to the project issue tracker: no interview, just synthesis of what you've already discussed."
+          "description": "Turn agreed requirements into a local, reviewable technical specification."
         },
         {
           "id": "code-to-tickets",
           "name": "GNCore To Tickets",
-          "description": "Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker (edges as text in one file per ticket locally, or native blocking links on a real tracker)."
+          "description": "Split an accepted specification into coherent deliverables with dependencies and acceptance criteria."
         },
         {
           "id": "code-writing-plans",
@@ -437,7 +437,7 @@
         {
           "id": "code-python-testing",
           "name": "GNCore Python Testing",
-          "description": "Python testing strategies using pytest, TDD methodology, fixtures, mocking, parametrization, and coverage requirements."
+          "description": "Design Python tests around observable contracts, meaningful boundaries and isolated state."
         },
         {
           "id": "code-webapp-testing",

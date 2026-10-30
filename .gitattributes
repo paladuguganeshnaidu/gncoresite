@@ -2,3 +2,6 @@
 *.pdf -text
 *.png -text
 *.jpg -text
+
+# Preserve generated plot geometry exactly.
+assets/benchmarks/*.svg -whitespace
