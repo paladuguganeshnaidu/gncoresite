@@ -1,0 +1,5 @@
+/* Final responsive polish. Colors and type inherit the existing GNCore theme. */
+.site-header .mobile-menu{position:absolute;top:100%;left:0;right:0;max-height:calc(100dvh - 70px);overflow-y:auto;box-shadow:0 12px 24px #1213250d}
+@media(max-width:900px){.hero-art.phase2-art{overflow:visible;height:auto;min-height:0;margin:0;padding:16px 0 32px;background:none}.hero-art.phase2-art .terminal{max-width:560px;transform:none;box-shadow:none}.phase2-art pre{font-size:12px;line-height:1.65;padding:20px;margin:0}.phase2-art .terminal-top,.phase2-art .terminal-bottom{padding:14px 20px}.hero-grid{gap:24px}.hero-copy .hero-actions{margin-bottom:30px}}
+@media(max-width:560px){.phase2-art .terminal-top{font-size:9px}.phase2-art pre{font-size:11px;padding:18px}.phase2-art .terminal-bottom{font-size:10px}.hero-art.phase2-art{padding-top:0;padding-bottom:24px}.stats-row{padding-top:20px;padding-bottom:20px}.stats-row div{min-width:0}.stats-row span{overflow-wrap:anywhere}.benchmark-home{margin-top:16px}.footer-bottom{line-height:1.7}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
