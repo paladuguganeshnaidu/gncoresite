@@ -1,0 +1,12 @@
+{
+  "version": "7.0.0",
+  "status": "published",
+  "package_source_commit": "db32676cea12e1c406ea39eef7d0b2fa89c4f716",
+  "website_content_commit": "1bbd37b34b5e43020f0f26fae6a4f7a20fca9327",
+  "github_release": "https://github.com/paladuguganeshnaidu/gncore/releases/tag/v7.0.0",
+  "pypi_release": "https://pypi.org/project/gncore/7.0.0/",
+  "benchmark_methodology": "/benchmarks/",
+  "categories": 30,
+  "workflows": 374,
+  "deployment_verification": "Compare this manifest with the production website source commit."
+}
